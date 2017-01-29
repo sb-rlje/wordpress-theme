@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:400,600|Open+Sans:400,600,700');
+
+ /* BASE CSS */
+body {font-family: 'Open Sans',arial, sans-serif;}
+input, textarea {width:100%;padding: 5px;}
+p{color:#444;font-size: 13px;line-height: 21px;font-family: 'Open Sans',arial, sans-serif;}
+h1,h2,h3,h4,h5,h6{text-transform: uppercase;letter-spacing: .03em;font-weight: 600;color:#221c35}
+a{color:#2a1261;text-transform: uppercase; font-family:'Open Sans',arial, sans-serif;letter-spacing: .03em;font-weight: 600;outline: 0;}
+a:hover{text-decoration: none;color:#98b9d8;}
+footer{background-color:#2b356c; }
+h6{font-size: 12px}
+ol, ul{list-style: outside none none;margin-bottom: 10px;margin-top: 0;padding: 0;text-decoration: none;}
+li {list-style: outside none none;}
+
+ /* LAYOUT */
+.container{width: 94%;}
+.container-fluid > .navbar-collapse, .container-fluid > .navbar-header, .container > .navbar-collapse, .container > .navbar-header {margin-left: 0px;margin-right: -15px;}
+.heading {margin-top: 15px; line-height: 22px}
+.heading::after {border-bottom: 1px solid #17212b;padding-bottom:15px;content: "";display: block;height: 1px;width: 30px;}
+.btn{background-color: transparent;border-color: #c9c9c9;border-radius:1px;margin-top:15px;color: #555;font-family: "Open Sans",arial,sans-serif;font-size: 10.5px;padding: 10px;text-transform: uppercase;}
+.btn-primary:hover{ background-color: #000000; border-color: #000000; }
+
+ /* NAVBAR */
+.navbar{margin-top: 10px;margin-bottom: 15px;}
+.navbar-default {background-color: transparent;border-color: transparent;}
+.navbar-default .navbar-nav > li > a {color: #2a1261;font-size:11px; text-transform: uppercase; font-family:'Josefin Sans',arial, sans-serif; margin: auto;border-bottom: none;font-weight: 600;letter-spacing: .05em;padding:15px 10px 15px 0; border-bottom:1px dotted rgba(0, 0, 0, 0.2)}
+.navbar-default .navbar-nav > li:last-child > a { border-bottom:0px dotted rgba(0, 0, 0, 0.2); margin-top: 1.5px}
+.navbar-default .navbar-nav > li > a:hover {color: #98b9d8;}
+.navbar-default .navbar-nav > li > a > span {display: none}
+.navbar-default .navbar-toggle {border-color: transparent;}
+.navbar-default .navbar-toggle:hover {background: transparent;}
+.navbar-default .navbar-toggle .icon-bar {background-color: #000;}
+.navbar-collapse {background: #ffffff;}
+.navbar-brand img {margin-left: -25px;margin-top: -5px;width: 200px;}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {border-color: transparent;}
+
+/* SUBMENU */
+#sub-menu a {color: #fff;font-size: 12px;opacity: 0.75;padding: 0 7px;font-family:'Josefin Sans',arial, sans-serif; font-weight: 600}
+#sub-menu a:hover{opacity: 1}
+#sub-menu {background-color: #2b356c;padding:9px 0;}
+#sub-menu ul{list-style: none;text-align: center;margin-top: 12px;padding: 0px;}
+#sub-menu li{display: inline-block;line-height: 25px}
+
+/* HOME TEMPLATE */
+#homeTemplate {padding: 0px 0px 65px;}
+#homeTemplate [class*="col-"]{padding:0px 0px;}
+#mission {padding: 0px 0px 20px;} 
+#mission .heading {margin-top: 25px;}
+#mission .container{padding-left: 0px;padding-right: 0px}
+#mission img{margin-top: 20px}
+#mission h6, #mission p{padding-left: 15px;padding-right: 15px}
+#contact {padding-top:0px;}
+#contact span{font-weight: 600}
+#contact .contact-row{border-bottom: 1px solid #e0e0e0;padding:12px 0;}
+#contact h6{margin-bottom: 10px}
+#contact p{margin-bottom: 0px;font-size: 13px;margin-top: 0px}
+#contact  .press-releases-link{margin-top: 10px}
+#contact  .press-releases-link [class*="col-"]{padding:0px 20px 0px 0px;}
+#contact  .press-releases-link a{color:#5889b5;text-transform: none;letter-spacing: 0;font-size: 13px}
+#contact  .press-releases-link a:hover{color:#2a1261;}
+#contact  .press-releases-link {padding-bottom: 15px}
+#contact  .press-releases-link .item{color:#2a1261;}
+#contact  .press-releases-link li{border-bottom:1px solid #e0e0e0;list-style: none; padding: 10px 0;}
+#contact  .entry-date{font-size: 11.5px;margin: 0px;}
+
+/* BRAND TEMPLATE */
+#brandTemplate {padding: 0px 0px 50px;}
+#brandTemplate #brands{padding: 30px 0px 0px;}
+#brands .item{padding: 0px 0px 30px;}
+#brands .item .image{margin: 0 auto;text-align: left;}
+#brands .item img{ width: 100%; max-width: 140px;padding: 10px 0 5px;}
+
+/* INVESTOR TEMPLATE */
+#investorTemplate {padding: 0px 0px 50px;}
+#investorTemplate #iframe{margin:0 auto; width: 100%;padding-top: 20px;}
+
+/* FOOTER TEMPLATE */
+#footerTemplate #sub-menu{padding: 10px 0px;background-color: #ffffff;}
+#footerTemplate #sub-menu ul{margin-top: 5px;}
+#footerTemplate #sub-menu a{font-size: 11px;letter-spacing: 0.03em;padding:0px 0px 0px 10px; color:#2a1261;}
+#footerTemplate #sub-menu span{padding-left:15px;font-size:15px;color:#2a1261;font-weight:100;}
+#footerTemplate #sub-menu p {color:#2a1261;font-size:11px;font-weight:600;letter-spacing:.03em;text-transform:uppercase;font-family:'Josefin Sans',arial, sans-serif; margin-top: 20px }
+#footerTemplate .titles-wrapper {height: 170px;background-color: #000}
+#footerTemplate .titles-img {background-color: #000;background-image: url("../img/rlje-titles.jpg");background-position: center center;background-size: cover;height: 170px; opacity: .7;}
+#footerTemplate .logos{width: 100%}
+
+/* PRESS TEMPLATE */
+#pressTemplate  [class*="col-"]{padding:0px 0px;}
+#pressTemplate #sub-menu {padding:3px 0 0;}
+#pressTemplate #press .press-release{padding-left: 0px;}
+#pressTemplate #press {padding:15px 0 70px;}
+#pressTemplate .press-releases-link{margin-top: 30px}
+#pressTemplate .press-releases-link a{color:#5889b5;text-transform: none;letter-spacing: 0;font-size: 13.5px} 
+#pressTemplate .press-releases-link a:hover{color:#2a1261;}
+#pressTemplate .press-releases-link {padding-bottom: 15px}
+#pressTemplate .press-releases-link .item{color:#2a1261;}
+#pressTemplate .press-releases-link li{padding: 12px 0 0px;border-bottom:1px solid #e0e0e0;list-style: none}
+#pressTemplate .press-releases-link li:last-child{border-bottom:none}
+#pressTemplate .entry-date{font-size: 12.5px;margin-top: 3px;}
+
+/* LEADERSHIP TEMPLATE */
+#leadershipTemplate  [class*="col-"]{padding:0px 0px;}
+#leadershipTemplate #sub-menu {padding:3px 0 0;}
+#leadershipTemplate  #leadership {padding:15px 0 40px;}
+#leadershipTemplate  #leadership .image  {margin-top: 10px; }
+#leadershipTemplate  #leadership .image img {width: 100%;height: auto; padding:0px;margin-top: 20px; margin-bottom: 5px}
+#leadershipTemplate  a{color:#5889b5;text-transform: none;letter-spacing: 0;font-size: 13.5px}
+#leadershipTemplate  a:hover{color:#2a1261;}
+#leadershipTemplate  .leadership-title{font-size: 12.5px;margin-top: 3px;}
+#leadershipTemplate  .member{padding:0px 0px 20px;}
+#leadershipTemplate  .leadership-link li{padding: 12px 0 0px;border-bottom:1px solid #e0e0e0;list-style: none}
+#leadershipTemplate  .leadership-link li:last-child{border-bottom:none}
+
+
+@media(min-width:768px) {
+h6{font-size: 12.5px}
+p{color:#555;font-size: 13.7px;line-height: 23px;}
+
+ /* LAYOUT */
+.container-fluid > .navbar-collapse, .container-fluid > .navbar-header, .container > .navbar-collapse, .container > .navbar-header {margin-left: 0px;margin-right: 0px;}
+.container{width: 94%;}
+#sub-menu a{padding:0 25px;font-size: 11.5px;} 
+
+/* BRAND TEMPLATE */
+#brands .item .image{text-align: center;}
+#brands .item img{max-width: 175px;padding:30px 0 30px;}
+
+ /* HOME TEMPLATE */
+#homeTemplate {padding: 0px 0px 110px;}
+#mission .container{padding-left: 15px;padding-right: 15px}
+#mission h6, #mission p{padding-left: 0px;padding-right: 0px}
+#mission .heading {margin-top: 15px;}
+#contact {padding-top:15px;}
+#contact p{margin-bottom: 15px;margin-top: 15px}
+#contact .contact-row{padding:0px 0;}
+
+/* PRESS TEMPLATE */
+#pressTemplate  [class*="col-"]{padding:0px 15px;}
+#pressTemplate #press {padding:30px 0 70px;}
+#pressTemplate #press .press-release{padding-left: 50px;}
+
+/* LEADERSHIP TEMPLATE */
+#leadershipTemplate  [class*="col-"]{padding:0px 15px;}
+#leadershipTemplate  #leadership .image  {margin-top: 0px; }
+#leadershipTemplate  #leadership {padding:30px 0 70px;}
+#leadershipTemplate  #leadership .image img {padding:9px;margin-top: 10px; }
+
+ /* NAVBAR */
+.navbar-default {background:transparent;border-color: transparent;}
+.navbar-collapse {background:transparent;}
+.navbar-brand img{width:220px;margin-top: -10px;margin-left: 0px}
+.navbar-default .navbar-nav > li > a {padding:15px 10px 15px 0;border-bottom: none;}
+.navbar-default .navbar-nav > li > a > span {padding-left:5px;font-size:20px;color:#211261;font-weight:100;display: inline-block;}
+
+/* FOOTER TEMPLATE */
+#footerTemplate .titles-wrapper {height: 220px;}
+#footerTemplate .titles-img {height: 220px;}
+#footerTemplate #sub-menu {padding:10px 0 0;}
+#footerTemplate #sub-menu a{font-size: 10.5px;color:#2a1261;}
+#footerTemplate #sub-menu a:hover{color:#98b9d8;}
+#footerTemplate #sub-menu p {font-size:10.5px;margin-top: 0px;}
+}
+
+@media(min-width:950px) {
+
+ /* HOME TEMPLATE */
+#homeTemplate [class*="col-"]{padding:0px 20px;}
+#homeTemplate [class*="col-"] .inquery {padding:0px 0px;}
+#mission img{margin-top: 0px}
+#mission {padding: 30px 0px 20px;} 
+
+ /* NAVBAR */
+.navbar{margin-top: 30px}
+.navbar-brand img{width:295px;}
+.navbar-default .navbar-nav > li > a {font-size:13.7px;}
+.navbar-brand img{margin-top: -20px;}
+.underline{margin-top: 0px}
+
+#sub-menu a{font-size: 12px;} 
+
+ }
+
+@media(min-width:1280px) {
+ /* LAYOUT */
+.container{width: 1200px;}
+
+}
+
